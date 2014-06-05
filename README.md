@@ -3,7 +3,7 @@ Thes : Autosave
 
 > Pre-Alpha stage
 
-> JQuery plugin for backup form values
+> JQuery plugin for backup form values. MIT Licensed
 
 Usage
 =================
