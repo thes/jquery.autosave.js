@@ -5,7 +5,7 @@ Thes : Autosave
 
 Usage
 =================
-1. Copy (or copy and adapt for your site) AutosaveController.php and Autosave.php to your site
+1. Copy (or copy and adapt for your site) AutosaveController.php and Autosave.php to your site (these files - just examples. you can use your own files)
 2. Copy jquery.autosave.js into your js catalog
 3. Copy and include style.css into your site
 4. Init plugin
@@ -21,8 +21,7 @@ Example
           'ajax_find_id'          : 'autosave/get_id',
           'ajax_remove'           : 'autosave/remove',
           'ajax_data'             : {
-              'token'             : get_token(),
-              'user_id'           : '<?= $user_id ?>'
+              'token'             : get_token()
           }
       });
   });
