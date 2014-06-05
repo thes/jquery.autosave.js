@@ -12,7 +12,8 @@ Usage
 
 Example
 =================
-<pre lang="javascript"><code>
+<pre lang="javascript">
+<code>
    $(function(){
       $('form').autosave('init', {
           'ajax_add'              : 'autosave/add',
@@ -25,7 +26,8 @@ Example
           }
       });
   });
-</code></pre>
+</code>
+</pre>
 
 Parameters
 =================
