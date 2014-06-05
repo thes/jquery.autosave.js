@@ -1,6 +1,7 @@
-Thes : Autosave [ Pre-Alpha version ]
+Thes : Autosave
 ==================
 
+> Pre-Alpha stage
 > JQuery plugin for backup form values
 
 Usage
