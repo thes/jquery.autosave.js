@@ -1,4 +1,4 @@
-Thes : Autosave
+Thes : Autosave [ Pre-Alpha version ]
 ==================
 
 > JQuery plugin for backup form values
