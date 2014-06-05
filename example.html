@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title</title>
+</head>
+<body>
+<script>
+    $(function(){
+        $('form').autosave('init', {
+            'interval'              : 30000,
+
+            'ajax_add'              : 'autosave/add',
+            'ajax_get_backup_list'  : 'autosave/get',
+            'ajax_get_backup'       : 'autosave/load',
+            'ajax_find_id'          : 'autosave/get_id',
+            'ajax_remove'           : 'autosave/remove',
+
+            'ajax_data'             : {
+                'token'             : get_token()
+            }
+        });
+    });
+</script>
+<form method="post" action="/">
+    <input type="text" name="name"/><br/>
+    <input type="submit"/>
+</form>
+</body>
+</html>
